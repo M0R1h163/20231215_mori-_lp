@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2-6:演習問題</title>
+
 <!-- CSS link -->
     <link rel="reset.css" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
@@ -15,20 +16,19 @@
 
 </head>
 <body>
-    <div class="header">
-            <img class="header-ttl" src="img/estra_logo.png" alt="LOGO">
-
-        <nav>
-            <ul>
-                <li><a href="#">News</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Company</a></li>
-                <li><a href="#">Contact</a></li>
+    <header class="header">
+        <img class="header-ttl" src="img/estra_logo.png" alt="LOGO"><a href="index.html"></a></img>
+        <nav class="header-nav">
+            <ul class="header-nav-list">
+                <li class="header-nav-item"><a href="#">News</a></li>
+                <li class="header-nav-item"><a href="#">About</a></li>
+                <li class="header-nav-item"><a href="#">Service</a></li>
+                <li class="header-nav-item"><a href="#">Blog</a></li>
+                <li class="header-nav-item"><a href="#">Company</a></li>
+                <li class="header-nav-item"><a href="#">Contact</a></li>
             </ul>
         </nav>
-    </div>
+    </header>
     <main>
         <div class="wrapper">
             <img class="wrapper-img" src="img/firstview.jpg" alt="firstview_photo">
@@ -53,12 +53,10 @@
                 <p class="about-info">About</p>
                 <h2 class="about-ttl">Technology × Coaching</h2>
             </div>
-            <div class="about-content">
-                <div class="about-comment">
-                <p1 class="about-content_text">株式会社estraはデジタル化が遅れている教育業界に<br>最新のテクノロジーを導入することによって教育の<br>DXを実現します。<br><br>
-                独自のオペレーションとコーチングを融合した新しい<br>教育の仕組みにより、一人ひとりに合わせた最適な教<br>育を提供します。</p1>
-                </div>
-                <img class="about-img" src="img/about.jpg" alt="about img">
+            <div class="about-comment">
+                    <p1 class="about-content_text">株式会社estraはデジタル化が遅れている教育業界に<br>
+                    最新のテクノロジーを導入することによって教育の <br>DXを実現します。<br><br>独自のオペレーションとコーチングを融合した新しい<br>教育の仕組みにより、一人ひとりに合わせた最適な教<br>育を提供します。</p1>
+                    <img class="about-img" src="img/about.jpg" alt="about img">
             </div>
         </div>
 
@@ -99,50 +97,51 @@
                 <p class="blog-info">Blog</p>
                 <h2 class="blog-ttl">ブログ</h2>
             </div>
-            <div class="flex__item">
+            <div class="flex__item wrap">
                 <div class="practice__card">
                     <div class="card__img">
                         <img class="card__img" src="img/blog__first.jpg" alt="pc-photo">
-                        <div class="card__ttl">Blog</p4>
+                        <div class="card__ttl">Blog</div>
                     </div>
                     <div class="blog__tag">
-                        <h4 class="card__commment">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h4>
+                        <h4 class="card__comment">プログラミング学習の勉強方法を<br>特集。挫折しない秘訣とは？</h4>
                         <div class="tag__tag">
-                            <div class="date__tag">2021/01/01</div>
+                            <div class="date__date">2021/01/01</div>
                             <div class="card__tag">#coachtech</div>
                         </div>
+                    </div>
                 </div>
-            </div>
-            <div class="practice__card-2">
+                <div class="practice__card">
                     <div class="card__img">
                         <img class="card__img" src="img/blog__first.jpg" alt="pc-photo">
-                        <div class="card__ttl">Blog</p4>
-                        </div>
-                        <div class="blog__tag">
-                            <h4 class="card__commment">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h4>
-                            <div class="tag__tag">
-                                <div class="date__tag">2021/01/01</div>
-                                <div class="card__tag">#coachtech</div>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            <div class="practice__card-3">
-                <div class="card__img">
-                    <img class="card__img" src="img/blog__first.jpg" alt="pc-photo">
-                    <div class="card__ttl">Blog</p4>
+                        <div class="card__ttl">Blog</div>
                     </div>
                     <div class="blog__tag">
-                        <h4 class="card__commment">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h4>
+                        <h4 class="card__comment">プログラミング学習の勉強方法を<br>特集。挫折しない秘訣とは？</h4>
                         <div class="tag__tag">
-                            <div class="date__tag">2021/01/01</div>
+                            <div class="date__date">2021/01/01</div>
+                            <div class="card__tag">#coachtech</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="practice__card">
+                    <div class="card__img">
+                        <img class="card__img" src="img/blog__first.jpg" alt="pc-photo">
+                        <div class="card__ttl">Blog</div>
+                    </div>
+                    <div class="blog__tag">
+                        <h4 class="card__comment">プログラミング学習の勉強方法を<br>特集。挫折しない秘訣とは？</h4>
+                        <div class="tag__tag">
+                            <div class="date__date">2021/01/01</div>
                             <div class="card__tag">#coachtech</div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="card__btn">
-                <a href="＃">一覧ページへ</a>
+            <div class="blog__btn">
+                <div class="card__btn">
+                    <a href="＃">一覧ページへ</a>
+                </div>
             </div>
         </div>
 
@@ -151,6 +150,10 @@
                 <p class="description-info">Company</p>
                 <h2 class="description-ttl">会社概要</h2>
             </div>
+
+
+
+
           <div class="table">
            <table>
             <tr>
@@ -181,19 +184,18 @@
          </div>
         </div>
 
-        <div class="detail">
-            <div class="recruit">
-                <img src="img/recruit.png" alt="recruit">
-                <h5 class="title">採用情報</h5>
-            </div>
-
-            <div class="interview">
-                <img src="img/interview.png" alt="interview">
-                <h5 class="title">社員インタビュー</h5>
-            </div>
-
+    <div class="detail">
+        <div class="recruit">
+            <img class="recruit-img" src="img/recruit.png" alt="recruit">
+            <h5 class="title">採用情報</h5>
         </div>
-    </main>
+
+        <div class="interview">
+            <img class="interview-img" src="img/interview.png" alt="interview">
+            <h5 class="title">社員インタビュー</h5>
+        </div>
+    </div>
+</main>
 
     <footer>
         <div class="footer">
