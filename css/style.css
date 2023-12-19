@@ -402,12 +402,13 @@ h3{
 .flex__item{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 800px;
+    margin: auto;
 
 }
 
 .practice__card{
-    width: 100%;
+    width:250px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
     border-radius:20px 20px 20px 20px;
     margin-bottom:30px;
@@ -418,7 +419,7 @@ h3{
 }
 
 .card__img {
-    width: 100%;
+    width: 250px;
     border-radius: 20px 20px 0px 0px;
     position: relative;
 }
@@ -429,17 +430,17 @@ h3{
     left:0%;
     color: white;
     background: darkmagenta;
-    font-size: 30px;
+    font-size: 15px;
     border-radius: 15px 0px 0px 0px;
     z-index: 10;
     text-align: center;
-    padding: 3%;
-    width: 20%;
+    padding: 5px 15px;
+    width: 30px;
 }
 
 
 .blog__tag{
-    width: 100%;
+    width: 250px;
     border-radius: 0px 0px 20px 20px;
     background-color: white;
     padding-top: 2%;
@@ -449,11 +450,11 @@ h3{
 
 .card__comment{
     text-align: center;
-    font-size: 200%
+    font-size: 15px;
 }
 
 .tag__tag{
-    font-size: 20px;
+    font-size: 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -471,7 +472,7 @@ h3{
 
 @media  and (min-width:1000px) and (max-width:1500px) {
     .practice__card{
-        width:30%
+        width:20px
     }
 }
 
