@@ -557,10 +557,12 @@ table td {
 
 .recruit {
     position: relative;
+    width: 100%;
 }
 
 .interview {
     position:relative;
+    width: 100%;
 }
 
 .title {
