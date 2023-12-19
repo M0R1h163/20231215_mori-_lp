@@ -550,34 +550,45 @@ table td {
     text-align: center;
 }
 
+@media screen and (min-width : 1000px) and (max-width:1500px) {
 .detail {
     display:flex;
-    width: 100%;
-}
-
-.recruit {
     position: relative;
     width: 100%;
 }
 
-.interview {
-    position:relative;
-    width: 100%;
+
+
+.recruit-img {
+    width: 50%;
+
 }
 
-.title {
+.interview-img {
+    width: 50%;
+}
+
+.title1 {
     position: absolute;
     color: white;
     font-weight: 100%;
     font-size: 30px;
     top: 30%;
-    left: 50%;
+    left: 25%;
     transform: translate(-50%, -50%);
+    z-index: 20;
 }
 
-@media  and (min-width:1000px) and (max-width:1500px){
-    .detail{ width:50%
-    }
+.title2 {
+    position: absolute;
+    color: white;
+    font-weight: 100%;
+    font-size: 30px;
+    top: 30%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    z-index: 30;
+}
 }
 
 footer{
@@ -631,4 +642,4 @@ footer{
 }
 small{
     color: dimgray;
-}
+}　
